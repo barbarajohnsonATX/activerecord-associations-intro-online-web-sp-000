@@ -1,3 +1,3 @@
 class Genre < ActiveRecord::Base
-  authenticate_or_request_with_http_digest
+  has_many :songs
 end
